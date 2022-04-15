@@ -1,0 +1,30 @@
+.hero-section{
+    position: relative;
+    bottom: 8rem;
+    text-align: center;
+}
+.hero-section h3{
+    font-size: 2.5rem;
+    font-weight: 700;
+    color: #fff;
+}
+.hero-section p{
+    position: relative;
+    top: 1rem;
+    font-size: 1.1rem;
+    font-weight: 500;
+    color: #555;
+}
+@media screen and (max-width:640px) {
+    .hero-section{
+        bottom: 3rem;
+        padding: 0 10px;
+    }
+    .hero-section h3{
+        font-size: 1.5rem;
+    }
+    .hero-section p{
+        top: 0.6rem;
+        font-size: 0.9rem;
+    }
+}
